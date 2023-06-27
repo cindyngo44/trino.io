@@ -16,20 +16,21 @@ Community Broadcast is a show where we cover events and happenings within the
 open-source Trino community and show off some cool stuff about
 Trino.
 
-Trino nation, We want to hear from you! If you have a question or pull request
-that you would like us to feature on the show please join the [Trino
-slack]({{site.url}}/slack) and go to the `#trino-community-broadcast` channel
-and let us know there. Otherwise, you can message Manfred Moser or Brian Olsen
-directly on Slack or Twitter.
+Trino nation, we want to hear from you! If you have a topic, question or pull
+request that you would like us to feature on the show join the [Trino
+slack]({{site.url}}/slack) and contact us there.
 
-See us live every two weeks!
+<a class="btn btn-pink" href="../community.html#events">
+Learn about upcoming episodes in our event calendar.
+</a>
 
 </div>
 <div markdown="1" class="col-lg-3">
 
-## Co-hosts
+## Hosts
 
 - Brian Olsen [@bitsondatadev](https://twitter.com/bitsondatadev)
+- [Cole Bowden](https://www.linkedin.com/in/cole-m-bowden)
 - Manfred Moser [@simpligility](https://twitter.com/simpligility)
 
 ## Watch or listen
@@ -55,10 +56,6 @@ See us live every two weeks!
 
 </div>
 <div markdown="1" class="col-md-12">
-
-## Upcoming shows
-
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23dd00a1&amp;ctz=America%2FDetroit&amp;src=NDhibXJvaXVpZmg2NWJsZWNhOGxzNGhyNTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23D81B60&amp;mode=AGENDA&amp;showCalendars=0&amp;showTz=1&amp;showTabs=0&amp;showPrint=0" style="border:solid 1px #777; margin-bottom: 2rem;" width="100%" height="240" frameborder="0" scrolling="no"></iframe>
 
 ## Latest episode
 

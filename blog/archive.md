@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Blog archives
+show_pagenav: false
 ---
 
 <div class="content container clearfix spacer-30">
@@ -29,10 +30,6 @@ title: Blog archives
         {% endif %} -->
       </div>
     {% endfor %}
-    <!--<hr />
-    <p class="overline">Want to stay up to date with the latest news from Strati? <a
-      href="#">Subscribe</a> to the blog!
-    </p>-->
   </div>
 </div>
 <div class="spacer-60"></div>

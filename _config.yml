@@ -21,9 +21,9 @@ exclude:
 
 # Custom variables
 
-trino_version: 394
+trino_version: 420
 conduct_email: conduct@trino.io
-slack_join: "https://join.slack.com/t/trinodb/shared_invite/zt-14ukl212d-98J09w~zC3vAQCgm6I2IxQ"
+slack_join: "https://join.slack.com/t/trinodb/shared_invite/zt-1xhrgebdt-8Pk2CNjtekGWy6eHY3It4w"
 slack_fqdn: trinodb.slack.com
 github_org_url: "https://github.com/trinodb"
 github_repo_url: "https://github.com/trinodb/trino"
@@ -33,3 +33,6 @@ linkedin_audience: 2842796
 twitter_user: trinodb
 twitter_hashtag: trinodb
 youtube_channel: trinodb
+
+paginate: 12 # Number of blog posts per page
+paginate_path: "/blog/:num"

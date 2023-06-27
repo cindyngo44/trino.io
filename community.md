@@ -19,19 +19,20 @@ title: Trino Community
       <div class="community-content-container slack-content-container">
         <div class="slack-text-container">
           <h2>Join the discussion</h2>
-          <p>The Trino community is very active and helpful on Slack, with users and developers from all around the world. If you need help using or running Trino, this is the place to ask.</p>
+          <p>The Trino community is very active and helpful on Slack, with users and developers from all around the world. If you need help using or running Trino, this is the place to ask. Check out the following channels,
+          and find <a href="./slack.html">many more for specific topics</a>.</p>
         </div>
         <div class="slack-stats-container">
           <div class="community-stats">
-            <span>7035</span>
+            <span>8454</span>
             Slack members
           </div>
           <div class="community-stats">
-            <span>618</span>
+            <span>778</span>
             Weekly active members
           </div>
           <div class="community-stats">
-            <span>586</span>
+            <span>627</span>
             Contributors
           </div>
         </div>
@@ -43,7 +44,7 @@ title: Trino Community
         </a>
         <a href="https://trinodb.slack.com/archives/CFLB9AMBN" class="slack-channel slack-pink-gradient">
           <i class="fa fa-home fa-lg"></i>
-          #general
+          #announcements
         </a>
         <a href="https://trinodb.slack.com/archives/CGB0QHWSW" class="slack-channel slack-orange-gradient">
           <i class="fa fa-tools fa-lg"></i>
@@ -62,11 +63,12 @@ title: Trino Community
         <a href="https://trinodb.slack.com/archives/CFQAMGRQE" class="slack-channel slack-pinkorange-gradient">
           <img src="../assets/images/graphics/community-announcements.svg">
           <i class="fa fa-bullhorn fa-lg"></i>
-          #community-announcements
+          #beginner
         </a>
       </div>
     </div>
     <div class="community-content-section">
+      <a name="events"></a>
       <h2>Events that don’t suck</h2>
       <div class="community-content-container">
         <a href="./broadcast" class="community-broadcast-block">
@@ -87,6 +89,11 @@ title: Trino Community
           </a>
         </div>
       </div>
+      <h2>Upcoming events</h2>
+      Community events such as Trino Meetups, Trino Community Broadcasts, and other Trino
+      gatherings you don't want to miss. To follow along, add this calendar by
+      clicking on the "+ Google Calendar" icon at the bottom right.
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23dd00a1&amp;ctz=America%2FDetroit&amp;src=NDhibXJvaXVpZmg2NWJsZWNhOGxzNGhyNTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23D81B60&amp;mode=AGENDA&amp;showCalendars=0&amp;showTz=1&amp;showTabs=0&amp;showPrint=0" style="border:solid 1px #777; margin-bottom: 2rem;" width="100%" height="240" frameborder="0" scrolling="no"></iframe>
     </div>
     <div class="community-content-section">
       <h2>Contribute</h2>
@@ -134,6 +141,7 @@ title: Trino Community
       </div>
     </div>
     <div class="community-content-section">
+      <a name="contributors"></a>
       <h2>Trino contributors</h2>
       <p>A huge amount of gratitude goes out to all contributors. Without you, none of this is possible.</p>
         <object type="image/svg+xml" data="../assets/images/community/contributors.svg"></object>

@@ -1,0 +1,19 @@
+<div class="user-logos-container">
+{%- for user in site.data.users -%}
+  {%- if user.highlight -%}
+  <div class="user-logo-item">
+    {%- if user.anchor == nil -%}
+    <a href="/users.html">
+    {%- else -%}
+    <a href="/users.html#{{user.anchor}}">
+    {%- endif -%}
+      <picture>
+        <source srcset="{{user.logo}}" media="(min-width: 769px)" />
+        <source srcset="{{user.logosmall}}" media="(max-width: 768px)" />
+        <img src="{{user.logosmall}}" alt="{{user.name}}" title="{{user.name}}" class="img-thumbnail">
+      </picture>
+    </a>
+  </div>
+  {%- endif -%}
+{%- endfor -%}
+</div>

@@ -37,12 +37,14 @@ The following client libraries can be used to run queries from several
 programming languages, and programs using the related platform:
 
 * [Trino JDBC driver](docs/current/client/jdbc.html) for Java/JVM
-* [Starburst ODBC driver](https://www.starburst.io/platform/starburst-enterprise/) for Windows
+* [Magnitude ODBC driver](https://www.magnitude.com/drivers/trino-odbc-jdbc)
 * [trino-go-client]({{site.github_org_url}}/trino-go-client) for Go
 * [presto-client-node](https://github.com/tagomoris/presto-client-node) for Node.js
 * [lento](https://github.com/vweevers/lento) for Node.js
 * [dbt adapter](https://github.com/starburstdata/dbt-trino)
 * [trino-python-client]({{site.github_org_url}}/trino-python-client) for Python
+* [airflow-trino](https://airflow.apache.org/docs/apache-airflow-providers-trino/stable/index.html)
+* [great-expectations-trino](https://docs.greatexpectations.io/docs/guides/connecting_to_your_data/database/trino/)
 * [RPresto](https://github.com/prestodb/RPresto) for R
 * [trino-client-ruby](https://github.com/treasure-data/trino-client-ruby) for Ruby
 
@@ -55,7 +57,21 @@ programming languages, and programs using the related platform:
 
 <div markdown="1" class="item">
 
-#### [Quix](https://wix.github.io/quix/)
+#### [Cube](https://cube.dev)
+
+Cube is headless BI for building data apps.
+You can use Cube to create an additional semantic layer
+or a last-mile caching layer on top of Trino. More importantly,
+you can use the set of APIs that Cube provides, including REST API,
+GraphQL API, and SQL API, to deliver the data directly to custom-built
+front-end applications as well as BI tools and notebooks, retaining
+low latency and high concurrency.
+
+</div>
+
+<div markdown="1" class="item">
+
+#### [Quix](https://wix-incubator.github.io/quix/)
 
 Quix is a multi-user, easy-to-use notebook manager.
 By utilizing Trino it provides unified access to
@@ -112,6 +128,18 @@ warehouses. It is used by Fortune 500 companies, and focused on smart query
 typing. Follow the [instructions to use the Trino
 connector](https://docs.gethue.com/administrator/configuration/connectors/#trino)
 to get started.
+
+</div>
+
+<div markdown="1" class="item">
+
+#### [Metabase](https://www.metabase.com/)
+
+Metabase is an open-source web based business intelligence platform. You can use Metabase 
+to ask questions about your data, or embed Metabase in your app to let your 
+customers explore their data on their own. More information is available in the [driver 
+project repository](https://github.com/starburstdata/metabase-driver) and the [user 
+guide](https://docs.starburst.io/data-consumer/clients/metabase.html).
 
 </div>
 
@@ -227,6 +255,22 @@ modified table and partition definitions, and maintain schema
 versioning.
 
 </div>
+
+<div markdown="1" class="item">
+
+#### [Plural](https://www.plural.sh/)
+
+Plural is an open-source, self-hosting framework that allows you to deploy Trino
+on your own cloud infrastructure. It provides automated upgrade delivery,
+Terraform/Helm management, interactive runbooks, autoscaling, and all the
+features you’d expect out of a managed service for free. Additionally, Plural
+manages all the complexities with deployment on Kubernetes, providing sane
+defaults and interfaces for first-time K8s users and experienced users alike.
+Your access to your infrastructure as code is completely transparent, so all
+your configuration is fully ejectable from the Plural platform.
+
+</div>
+
 
 </div></div>
 

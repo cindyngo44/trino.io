@@ -1,9 +1,10 @@
 <!--Main Navigation-->
 <header>
-    <div class="announcement">
-      <h2>Presto SQL is now Trino <a href="{% post_url
-        2020-12-27-announcing-trino %}">Read why &raquo;</a></h2>
-    </div>
+  <div class="announcement">
+    <a href="{{site.github_repo_url}}">
+      <h2>Do you ❤️ Trino? Give us a 🌟 on GitHub <i class="fab fa-github"></i></h2>
+    </a>
+  </div>
     <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar" style="background: #000033;height:80px;">
       <a class="navbar-brand" href="{{site.url}}" style="padding-top:0px;">
         <img src="/assets/images/trino-logo/trino-ko_tiny-alt.svg" style="height:35px;vertical-align:top;padding-left:10px;" alt="Trino">
@@ -28,12 +29,16 @@
             {% if page.url contains '/community'
               or page.url contains '/slack.html'
               or page.url contains '/broadcast'
+              or page.url contains '/users.html'
               or page.url contains '/individual-code-of-conduct.html'
               or page.url contains '/guidelines-corporate.html' %}active{% endif %}">
             <a class="nav-link dropdown-toggle" href="/community.html">Community</a>
             <div class="dropdown-menu dropdown-block">
               <a class="dropdown-item" href="/slack.html">Slack</a>
               <a class="dropdown-item" href="/broadcast">Community broadcast</a>
+              <a class="dropdown-item" href="/community.html#events">Events</a>
+              <a class="dropdown-item" href="/users.html">Users</a>
+              <a class="dropdown-item" href="/community.html#contributors">Contributors</a>
               <a class="dropdown-item" href="/individual-code-of-conduct.html">Code of conduct</a>
               <a class="dropdown-item" href="/guidelines-corporate.html">Corporate guidelines</a>
             </div>
@@ -42,7 +47,7 @@
             <a class="nav-link dropdown-toggle" href="/development/">Development</a>
             <div class="dropdown-menu dropdown-block">
               <a class="dropdown-item" href="/development/vision.html">Vision</a>
-              <a class="dropdown-item" href="/development/process.html">Contribution process</a>
+              <a class="dropdown-item" href="/development/process.html">Contribute</a>
               <a class="dropdown-item" href="/development/roles.html">Development roles</a>
               <a class="dropdown-item" href="/docs/current/develop.html">Developer guide</a>
             </div>
